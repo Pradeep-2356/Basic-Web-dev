@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5rem;
+}
+.login {
+    border: 1px solid black;
+    background: url(Building.jpg);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 40rem;
+    height: 30rem;
+    display: inline-flex;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+.elements{
+    text-align: start;
+    font-size: 15px;
+    color: white;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+
+label {
+    color: rgba(225,225,255, 0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+input {
+    background: rgba(225, 255, 255, 0.3);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+
+}
+button {
+    background: rgb(45, 126, 231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
